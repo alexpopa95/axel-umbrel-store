@@ -20,6 +20,6 @@ gallery:
 releaseNotes: >-
   Initial release of EasyPanel version 1.0.0, featuring seamless GitHub integration, auto-renewable SSL certificates, and one-click app templates.
 dependencies: []
-path: "/opt/easypanel"
+path: ""
 defaultUsername: ""
 defaultPassword: ""
