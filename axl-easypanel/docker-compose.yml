@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  easypanel:
+    image: easypanel/easypanel
+    command: setup
+    volumes:
+      - /etc/easypanel:/etc/easypanel
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    stdin_open: true
+    tty: true
+    restart: no

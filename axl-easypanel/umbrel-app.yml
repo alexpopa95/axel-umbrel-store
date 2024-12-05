@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: axl-easypanel
+name: EasyPanel
+tagline: Deploy Any Application with Ease
+icon: https://marketplace-assets.digitalocean.com/logos/easypanel.svg
+category: Development
+version: "1.0.0"
+port: 3000
+description: >-
+  Easypanel is a modern server control panel that simplifies the deployment and management of applications. Leveraging Docker, it supports a wide range of programming languages, including Node.js, Ruby, Python, PHP, Go, and Java. With features like seamless GitHub integration for push-to-deploy, auto-renewable Let's Encrypt SSL certificates, and one-click app templates, Easypanel streamlines server management. Its intuitive interface allows users to deploy applications, manage databases, and provision SSL certificates effortlessly, making it an ideal solution for developers seeking efficiency and control.
+developer: EasyPanel
+website: https://easypanel.io
+submitter: EasyPanel
+submission: https://github.com/easypanel/easypanel
+repo: https://github.com/easypanel/easypanel
+support: https://github.com/easypanel/easypanel/issues
+gallery:
+  - https://easypanel.io/img/applications-screenshot.png
+  - https://easypanel.io/img/databases-screenshot.png
+releaseNotes: >-
+  Initial release of EasyPanel version 1.0.0, featuring seamless GitHub integration, auto-renewable SSL certificates, and one-click app templates.
+dependencies: []
+path: "/opt/easypanel"
+defaultUsername: ""
+defaultPassword: ""
